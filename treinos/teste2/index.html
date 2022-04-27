@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Imagens Flexiveis</title>
+    <style>
+        h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-stretch: ultra-condensed
+}
+body{
+    background-color: purple;
+    margin: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+a{
+    background-color: limegreen;
+}
+    </style>
+</head>
+<body>
+    <h1>Vamos testar uma imagem Flexível</h1>
+    <p class="container">Logo em baixo você tem uma imagem Flexível</p>
+
+    <picture>
+        <source media="(max-width:650px)" srcset="foto-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="foto-m.jpg" type="image/jpg">
+        <img src="foto-g.jpg" alt="Imagem Flexível"> <!--Imagem original de 1000px-->
+    </picture>
+    <p>Ir para a <a href="página2/pagina02.html">proxima página</a></p>
+</body>
+</html>

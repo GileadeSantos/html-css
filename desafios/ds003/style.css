@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(21, 2, 75);
+}
+h1{
+    text-align: center;
+    color: rgb(139, 199, 252);
+}
+body{
+    background-color: rgb(17, 16, 16);
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    margin-left: 500px;
+    margin-right: 500px;
+}

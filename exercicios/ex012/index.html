@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1> <!--Usando muito dados do Servidor-->
+    <p>Este video está hospedado no meu próprio sevidor</p>
+    <video width="560px" poster="imagens/html.ico.ico" controls> <!--Pode usar loop para repetir o video automaticamente-->
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+        <source src="midia/meuvideo.m4v" type="video/m4v">
+        <source src="midia/meuvideo.webm" type="video/webm">
+        <source src="midia/meuvideo.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo videos do youtube</h1> <!--Indo no Google,compartilha e clica em incorporar e copia o código.-->
+
+    <!--Usando poucos dados do Servidor-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tjZQnk5j6Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Adicionando mais um video</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5VizkI5hP4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

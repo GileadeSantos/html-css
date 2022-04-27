@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(24, 19, 19);
+}
+h1{
+    margin-left: 550px;
+    color: rgb(139, 199, 252);
+}
+a{
+    margin-left: 700px;
+}
+img{
+    align-self: center;
+}
